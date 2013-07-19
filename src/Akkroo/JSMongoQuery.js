@@ -25,7 +25,9 @@
 		is_callable = _.isFunction,
 		is_bool = _.isBoolean,
 		is_int = function(e) { return typeof n === 'number' && e % 1 == 0; },
-		
+		in_array = function(needle, haystack) { return _.contains(haystack, needle); },
+		array_diff = function(a1, a2){ return _.difference(a2, a1); },
+				
 		explode = function(sep, e) { return e.split(sep); },
 		call_user_func = function(callback) {
 			callback.apply(null, Array.prototype.slice.call(arguments, 1));
