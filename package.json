@@ -8,7 +8,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "jasmine-node": "*"
+    "jasmine-node": "1.10.x"
   },
   "optionalDependencies": {
   },
