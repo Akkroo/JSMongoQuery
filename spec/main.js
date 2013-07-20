@@ -1,10 +1,10 @@
-/* 
+/*
  * Copyright (C) 2013 Akkroo Solutions Ltd
- * 
+ *
  */
 
 require(["requirejsconf.js"], function() {
-	require(["domReady!", "jasmine", "jasmine-html", "spec/libs/JSMongoQuery.spec"], function( document, jasmine ){
+	require(["domReady!", "jasmine", "jasmine-html", "JSMongoQuery.spec"], function( document, jasmine ){
 
 		// Set up the HTML reporter - this is reponsible for
 		// aggregating the results reported by Jasmine as the

@@ -1,12 +1,11 @@
 define(
 	[
-	"lib/JSMongoQuery",
-	"text!TestQueries/MongoQueryTestQueries.json"
+	"../lib/JSMongoQuery",
+	"text!../tests/TestQueries/MongoQueryTestQueries.json"
 	],
 	function( JSMongoQuery, testQueries ){
-
 		var queries = JSON.parse(testQueries);
-		
+
 		// Describe the test suite for this module.
 		describe(
 			"The JSMongoQuery performs query",
