@@ -1,9 +1,9 @@
 {
   "name": "JSMongoQuery",
   "version": "1.0.0",
-  "description": "Mongo	queries in JS",
+  "description": "Mongo queries in JS",
   "keywords": [
-	"MongoDB", "Document queries", "JS"
+    "MongoDB", "Document queries", "JS"
   ],
   "dependencies": {
   },
@@ -11,13 +11,12 @@
     "jasmine": "*"
   },
   "optionalDependencies": {
-    
   },
   "contributors": [
     {
       "name": "Nick Brook",
       "email": "nick@akkroo.com",
-	  "website":"http://nickbrook.me"
+      "website":"http://nickbrook.me"
     }
   ]
 }
