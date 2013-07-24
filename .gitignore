@@ -42,4 +42,5 @@ publish/vendor
 
 /publish/shared/Akkroo/APIClient
 node/node_modules
+node_modules/
 /publish/debug
