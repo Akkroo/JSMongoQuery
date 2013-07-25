@@ -1,3 +1,3 @@
-[submodule "tests/TestQueries"]
-	path = tests/TestQueries
-	url = git@github.com:Akkroo/MongoQueryTests.git
+[submodule "spec/TestQueries"]
+	path = spec/TestQueries
+	url = git@github.com:Akkroo/JSMongoQuery.git
