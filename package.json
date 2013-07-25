@@ -5,6 +5,7 @@
 	"keywords": [
 		"MongoDB", "Document queries", "JS"
 	],
+	"main": "lib/JSMongoQuery.js",
 	"dependencies": {
 	},
 	"devDependencies": {
