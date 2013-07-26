@@ -6,6 +6,9 @@
 		"MongoDB", "Document queries", "JS"
 	],
 	"main": "lib/JSMongoQuery.js",
+	"scripts": {
+		"test": "./specs.sh"
+	},
 	"dependencies": {
 		"underscore": "1.5.x"
 	},
