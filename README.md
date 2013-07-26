@@ -7,3 +7,17 @@ JSMongoQuery implements MongoDB queries in JavaScript, allowing developers to qu
 This code is used at Akkroo to allow the construction of advanced form logic queries in our web application.
 
 For PHPMongoQuery visit https://github.com/Akkroo/PHPMongoQuery
+
+## Running tests
+
+To run the test suite, first install the required dependencies:
+
+```
+npm install
+```
+
+then run the tests:
+
+```
+npm test
+```
