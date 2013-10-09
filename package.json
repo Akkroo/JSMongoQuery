@@ -11,13 +11,15 @@
 	},
 	"main": "lib/JSMongoQuery.js",
 	"scripts": {
+		"debug": "./specs.sh --debug",
 		"test": "./specs.sh"
 	},
 	"dependencies": {
 		"underscore": "1.5.x"
 	},
 	"devDependencies": {
-		"jasmine-node": "*"
+		"jasmine-node": "*",
+		"node-inspector": "0.3.x"
 	},
 	"optionalDependencies": {
 	},
