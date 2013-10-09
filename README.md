@@ -36,7 +36,7 @@ Result: true
 
 ## Methods
 
-### executeQuery($query, $documents, $options)
+### executeQuery(query, documents, options)
 
 Execute a query on a single document, returning a boolean value for pass or fail:
 
@@ -52,7 +52,7 @@ Output:
 Result: false
 ```
 
-### appendFieldSpecifier($query, $append)
+### appendFieldSpecifier(query, append)
 
 Append a field specifier to any field queries. For example, your query may have been written as follows:
 
@@ -82,7 +82,7 @@ Output:
 newQuery: { 'a.value': 'foo' }
 ```
 
-### getDependentFields($query)
+### getDependentFields(query)
 
 Parse a query to find all the fields it depends on. This is useful for listening to when those values change, so the query is only repeated when the result could have changed. For example:
 
