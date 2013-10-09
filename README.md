@@ -21,3 +21,9 @@ then run the tests:
 ```
 npm test
 ```
+
+If you want to debug whilst running the tests (using `node-inspector`):
+
+```
+npm run-script debug
+```
