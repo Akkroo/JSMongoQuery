@@ -5,6 +5,10 @@
 	"keywords": [
 		"MongoDB", "Document queries", "JS"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Akkroo/JSMongoQuery"
+	},
 	"main": "lib/JSMongoQuery.js",
 	"scripts": {
 		"test": "./specs.sh"
